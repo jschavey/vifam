@@ -1,0 +1,7 @@
+<configs>
+    <insertBefore xpath="/windows/window[@name='mainMenu']/grid[@pos='50,80']/mainmenubutton[@name='btnNewGame']" >
+        <label style="header.name" text="Hello, World!" text_key="vifamHelloWorld" />
+	</insertBefore>
+
+    <remove xpath="/windows/window[@name='mainMenu']/grid/rect" />
+</configs>
